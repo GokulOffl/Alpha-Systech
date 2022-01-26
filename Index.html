@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Systech | Home</title>
+    <link rel="stylesheet" href="Style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Rubik:wght@300&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+    
+            <!-- Fontawesome CDN Link -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+
+
+
+
+  
+
+    
+
+   <!-- menu SectioStart -->
+   
+   <div id="home"> </div>
+  
+   <div class="nav">
+     <input type="checkbox" id="nav-check">
+     <div class="nav-header">
+         <img src="./Pictures/Logos/Alpha.png" >
+     </div>
+     <div class="nav-btn">
+       <label for="nav-check">
+         <span></span>
+         <span></span>
+         <span></span>
+       </label>
+     </div>
+
+     <div class="nav-links">
+         <ul>
+       <li><a  id="activepage" href="#home" >Home</a></li>
+       <li><a href="" >Products</a></li>
+       <li><a href="services.html" >Services</a></li>
+       <li><a href="" >About Us</a></li>
+       <li><a href="contactus.html" >Contact Us</a></li>
+         </ul>
+ </div>
+  </div>  
+  
+<!-- menu Section End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Slide show Start -->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="./Pictures/Sliderimg/banner1.png" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+
+  <img src="./Pictures/Sliderimg/banner2.png" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="./Pictures/Sliderimg/banner3.png" style="width:100%">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+
+  
+  <script>
+  var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4500); // Change image every 2 seconds
+  }
+  </script>
+
+<!-- Slide show Start -->
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+<div class="s-heading">
+
+	<h1>Our products</h1>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Product Gallery start -->
+
+
+<div class="productsview">
+  
+<div class="gallery">
+  <div class="content">
+    <img src="./Pictures/items/PC1.jpg">
+    <h3>Assembled PC I3 3rd Gen with 500GB HDD</h3>
+    <p>Customized Assembled Computer
+      I3 3rd Gen - 500GB HDD - 15.5 inch Monitor <br>
+      DDR3 4GB Ram
+    </p>
+    <h6>₹20,500.00</h6>
+    <ul>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    </ul>
+    <button class="buy-1"  onclick="window.location.href='contactus.html'">Get a Quote</button>
+    
+  </div>
+  <div class="content">
+    <img src="./Pictures/items/PC2.jpg">
+    <h3>Assembled PC I3 3rd Gen with 1TB HDD</h3>
+    <p>Customized Assembled Computer
+      I3 3rd Gen - 1TB HDD - 15.5 inch Monitor <br>
+      DDR3 4GB Ram
+    </p>
+    <h6>₹22,000.00</h6>
+    <ul>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    </ul>
+    <button class="buy-2" onclick="window.location.href='contactus.html'">Get a Quote</button>
+  </div>
+  <div class="content">
+    <img src="./Pictures/items/PC3.jpeg">
+    <h3>Budget Assembled Pc For Gaming I5 </h3>
+    <p>Customized Gaming Computer
+      I5-9400F - 1TB SSD - 21 inch Monitor <br>
+      DDR3 8GB Ram
+    </p>
+    <h6>₹55,000.00</h6>
+    <ul>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    </ul>
+    <button class="buy-3" onclick="window.location.href='contactus.html'">Get a Quote</button>
+  </div>
+
+
+
+</div>
+
+<div class="readmore">
+
+  <a href="">View More Products</a>
+  
+</div>
+</div>
+
+
+
+
+
+
+<br>
+<br>
+
+
+
+<!-- Product Gallery End -->
+
+
+
+
+
+
+
+
+
+<hr class="hrline">
+
+<div class="s-heading">
+
+	<h1>Our Services</h1>
+  
+</div>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+      
+      <div class="row">
+        <div class="service">
+          <i class="fas fa-desktop"></i>
+          <h2>Assembled Computer Sales</h2>
+          <p>
+            We Provoide Custom Assembled Build for customers On Low Budget. Check Out Our Products to know more.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fas fa-laptop"></i>
+          <h2>Computer Service</h2>
+          <p>
+            We Provoide Best Computer and laptop Service In Karur District. Yes We do computer & Laptopn Service in chip level.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fas fa-mobile"></i>
+          <h2>Mobile Service</h2>
+          <p>
+            We Also provoide mobile service in karur district. Chip level mobile service is available.
+          </p>
+        </div>
+       
+      </div>
+    </div>
+ 
+<br>
+<br>
+<br>
+<br>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+<hr class="hrline">
+
+<div class="s-heading">
+
+	<h1>About Us</h1>
+  
+</div>
+<br>
+<br>
+
+<div class="aboutus">
+  Compusoft solutions is one of the upcoming leading laptop service centres in karur.
+   We ensure providing best laptop services for any laptop brand and for any related problems
+    at an affordable price. <br>
+    <br>
+
+We also sell laptops and Assembled PC’s of all brands at the best price in the market. 
+Alpha Systech acts as a one stop solution for all your gadget needs such as printer, 
+monitor, headsets, gaming gadgets, computer accessories, laptops and computers.
+Build Your Own personal computers Or Gaming Computer Or Editing Computer From Us.
+</div>
+<br>
+<br>
+
+<style>
+  .aboutus
+  {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin: auto;
+    width: 80%;
+
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+
+<div class="counter-up">
+  <div class="content">
+    <div class="box">
+      <div class="icon"><i class="fas fa-history"></i></div>
+      <div class="counter">2</div>
+      <div class="text">Years Of Experience</div>
+    </div>
+    <div class="box">
+      <div class="icon"><i class="fas fa-gift"></i></div>
+      <div class="counter">200</div>
+      <div class="text">Completed Projects</div>
+    </div>
+    <div class="box">
+      <div class="icon"><i class="fas fa-users"></i></div>
+      <div class="counter">400</div>
+      <div class="text">Happy Clients</div>
+    </div>
+    </div>
+</div>
+<br>
+<br>
+<script>
+$(document).ready(function(){
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1200
+  });
+});
+</script>
+
+<style>
+  .counter-up{
+  background: url("images/bg-2.jpeg") no-repeat;
+  min-height: 50vh;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.counter-up::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.counter-up .content{
+  z-index: 1;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.counter-up .content .box{
+  border: 1px dashed rgba(255,255,255,0.6);
+  width: calc(25% - 30px);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 20px;
+}
+.content .box .icon{
+  font-size: 48px;
+  color: #0091ff;
+}
+.content .box .counter{
+  font-size: 50px;
+  font-weight: 500;
+  color: #000000;
+  font-family: sans-serif;
+}
+.content .box .text{
+  font-weight: 400;
+  color: #000000;
+}
+@media screen and (max-width: 1036px) {
+  .counter-up{
+    padding: 50px 50px 0 50px;
+  }
+  .counter-up .content .box{
+    width: calc(50% - 30px);
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .counter-up .content .box{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .wrapper{
+    padding: 20px;
+  }
+  .counter-up{
+    padding: 30px 20px 0 20px;
+  }
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="hrline">
+<!-- Contact Section start  -->
+
+
+<div class="s-heading"> <h1> Contact Us Now </h1> </div>
+
+
+<!--alert messages start
+    <div class="alert-success">
+      <span>Message Sent! Thank you for contacting us.</span>
+    </div>
+    <div class="alert-error">
+      <span>Something went wrong! Please try again.</span>
+    </div>
+    alert messages end-->
+
+    <!--contact section start-->
+    <div class="contact-sectionnn">
+      
+      <div class="contact-infooo" >
+        <div><i class="fas fa-map-marker-alt"></i> <br> 
+        <b>
+          State Bank Opp, 
+          Karur Road, Thennilai, 
+          Karur - 639206.
+        </b>
+        </div>
+
+            
+            <hr class="hrline2">
+
+        <div><i class="fas fa-envelope"></i> <br> 
+          <b> <a id="linkssss" href="mailto:alphasystechsol@gmail.com"> alphasystechsol@gmail.com </a> </b>
+        </div>
+        
+           <hr class="hrline2">
+
+           <div><i class="fas fa-phone"></i> <br> 
+          <b>
+            <a id="linkssss" href="tel:+91-9791783592"> +91-9791783592</a> ,
+          <a id="linkssss" href="tel:+91-9080351477"> +91-9080351477</a> ,
+          <a id="linkssss" href="tel:+91-9080666360"> +91-9080666360</a>
+          </b>
+          </div>
+          <hr class="hrline2">
+
+
+          <div><i class="fas fa-clock"></i> <br> 
+           <b> Mon - Sat : </b> 09:30 AM - 08:30 PM ,
+          <b> Sun : </b> Closed </div>
+          <hr class="hrline2">
+
+      </div>
+      <br>
+      <br>
+      <br>
+      
+
+    </div>
+   <!--contact section end-->
+
+<div class="maps">
+
+  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.2506310338379!2d78.07364062915313!3d10.9631813161415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa2f1d3cca6d45%3A0x9c8b25872e263d01!2sCyber%20Network%20Solutions!5e0!3m2!1sen!2sin!4v1634977780510!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+ 
+</div>
+
+<br> 
+
+<br>
+<br>
+<br>
+
+
+<!-- Contact Section End  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Site footer -->
+ 
+<!-- The content of your page would go here. -->
+<footer>
+  <div class="footer-content">
+      <h3>Alpha Systech</h3>
+      <p>Raj Template is a blog website where you will find great tutorials on web design and development. Here each tutorial is beautifully described step by step with the required source code.</p>
+      <ul class="socials">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in"></i></i></a></li>
+      </ul>
+  </div>
+  <div class="footer-bottom">
+      <p>All Rights Reserved  <a href="Index.html">  &copy;Alpha Systech</a> <b style="padding-left:15px;"></b>  </p>
+      <p class="web">This Website is Designed By <a href="http://cybernetworksolutions.c1.biz/Home.html"   target="_blank" >Cyber Network Solution</a>  </p>
+             
+        
+  </div>
+
+</footer>
+
+  <!-- Site footer -->
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
